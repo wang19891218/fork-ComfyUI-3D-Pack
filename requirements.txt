@@ -15,6 +15,7 @@ opencv-python
 pillow
 nerfacc>=0.5.3
 slangtorch
+git+https://github.com/EasternJournalist/utils3d.git#egg=utils3d
 
 # for use ML models
 diffusers>=0.26.1
@@ -30,6 +31,7 @@ peft
 
 # for process images & videos
 rembg
+onnxruntime
 imageio
 imageio-ffmpeg
 matplotlib
@@ -43,6 +45,9 @@ pymeshlab
 gpytoolbox
 PyMCubes
 libigl
+pyvista
+pymeshfix
+igraph
 
 # configs & extra
 torchtyping>=0.1.5
@@ -52,3 +57,4 @@ packaging
 OmegaConf
 pyhocon
 iopath
+easydict
